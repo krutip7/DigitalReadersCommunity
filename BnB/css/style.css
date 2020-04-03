@@ -1,0 +1,79 @@
+body{
+	color: white;
+	background-color: #111111;
+	padding-bottom: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+	#banner_image{
+	padding-top: 75px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#banner_content{
+	position: relative;
+	padding-top: 6%;
+	padding-bottom: 6%;
+	margin-top: 12%;
+	margin-bottom: 12%;
+	background-color: rgba(0, 0, 0, 0.7);
+	max-width: 660px;
+}
+
+.below_nav{
+	margin-top: 75px;
+	margin-bottom: 30px;
+}
+
+.info{
+	text-align: justify;
+}
+
+a,a:visited,a:active,a:focus{
+	text-decoration: none;
+	color: #77CCFF;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #50FFDD;
+}
+
+footer{
+	padding: 10px 0;
+	background-color: #101010;
+	color:#9d9d9d;
+	bottom: 0;
+	width: 100%;
+}
+
+.profilepic{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+
+.small-dp{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.fixfooter{
+	position: fixed;
+}
+
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
